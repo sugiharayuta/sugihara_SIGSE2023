@@ -1,0 +1,193 @@
+no constraint
+clonesize 6~10: 1034
+clonesize 11~15: 315
+clonesize 16~20: 28
+clonesize 21~25: 5
+clonesize 26~30: 1
+clonesize 31~35: 1
+clonesize 36~40: 2
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 4
+
+ < 70% textual equality filter
+clonesize 6~10: 424
+clonesize 11~15: 28
+clonesize 16~20: 0
+clonesize 21~25: 0
+clonesize 26~30: 0
+clonesize 31~35: 0
+clonesize 36~40: 0
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 0
+
+ < 80% textual equality filter
+clonesize 6~10: 597
+clonesize 11~15: 49
+clonesize 16~20: 10
+clonesize 21~25: 1
+clonesize 26~30: 0
+clonesize 31~35: 0
+clonesize 36~40: 0
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 0
+
+ < 90% textual equality filter
+clonesize 6~10: 899
+clonesize 11~15: 194
+clonesize 16~20: 20
+clonesize 21~25: 3
+clonesize 26~30: 0
+clonesize 31~35: 0
+clonesize 36~40: 0
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 0
+
+ 100% textual equality filter
+clonesize 6~10: 102
+clonesize 11~15: 27
+clonesize 16~20: 3
+clonesize 21~25: 0
+clonesize 26~30: 0
+clonesize 31~35: 0
+clonesize 36~40: 0
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 1
+
+70% >= textual equality filter
+clonesize 6~10: 610
+clonesize 11~15: 287
+clonesize 16~20: 28
+clonesize 21~25: 5
+clonesize 26~30: 1
+clonesize 31~35: 1
+clonesize 36~40: 2
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 4
+
+80% >= textual equality filter
+clonesize 6~10: 437
+clonesize 11~15: 266
+clonesize 16~20: 18
+clonesize 21~25: 4
+clonesize 26~30: 1
+clonesize 31~35: 1
+clonesize 36~40: 2
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 4
+
+90% >= textual equality filter
+clonesize 6~10: 135
+clonesize 11~15: 121
+clonesize 16~20: 8
+clonesize 21~25: 2
+clonesize 26~30: 1
+clonesize 31~35: 1
+clonesize 36~40: 2
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 4
+
+type equality filter & reference difference <= 2 filter
+clonesize 6~10: 330
+clonesize 11~15: 93
+clonesize 16~20: 5
+clonesize 21~25: 1
+clonesize 26~30: 0
+clonesize 31~35: 0
+clonesize 36~40: 1
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 0
+
+type equality filter & reference difference <= 2 filter & < 70% textual equality filter
+clonesize 6~10: 51
+clonesize 11~15: 0
+clonesize 16~20: 0
+clonesize 21~25: 0
+clonesize 26~30: 0
+clonesize 31~35: 0
+clonesize 36~40: 0
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 0
+
+type equality filter & reference difference <= 2 filter & < 80% textual equality filter
+clonesize 6~10: 80
+clonesize 11~15: 0
+clonesize 16~20: 1
+clonesize 21~25: 1
+clonesize 26~30: 0
+clonesize 31~35: 0
+clonesize 36~40: 0
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 0
+
+type equality filter & reference difference <= 2 filter & < 90% textual equality filter
+clonesize 6~10: 212
+clonesize 11~15: 55
+clonesize 16~20: 2
+clonesize 21~25: 1
+clonesize 26~30: 0
+clonesize 31~35: 0
+clonesize 36~40: 0
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 0
+
+type equality filter & reference difference <= 2 filter & 100% textual equality filter
+clonesize 6~10: 88
+clonesize 11~15: 16
+clonesize 16~20: 2
+clonesize 21~25: 0
+clonesize 26~30: 0
+clonesize 31~35: 0
+clonesize 36~40: 0
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 0
+
+type equality filter & reference difference <= 2 filter & 70% >= textual equality filter
+clonesize 6~10: 279
+clonesize 11~15: 93
+clonesize 16~20: 5
+clonesize 21~25: 1
+clonesize 26~30: 0
+clonesize 31~35: 0
+clonesize 36~40: 1
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 0
+
+type equality filter & reference difference <= 2 filter & 80% >= textual equality filter
+clonesize 6~10: 250
+clonesize 11~15: 93
+clonesize 16~20: 4
+clonesize 21~25: 0
+clonesize 26~30: 0
+clonesize 31~35: 0
+clonesize 36~40: 1
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 0
+
+type equality filter & reference difference <= 2 filter & 90% >= textual equality filter
+clonesize 6~10: 118
+clonesize 11~15: 38
+clonesize 16~20: 3
+clonesize 21~25: 0
+clonesize 26~30: 0
+clonesize 31~35: 0
+clonesize 36~40: 1
+clonesize 41~45: 0
+clonesize 46~50: 0
+clonesize 51~: 0
+Failed analyzing 113/2089 members.
+...Completed

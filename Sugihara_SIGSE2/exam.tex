@@ -1,0 +1,115 @@
+\documentclass[submit,techrep,noauthor]{ipsj}
+%\documentclass[submit,techrep,noauthor]{jreport}
+\usepackage{jgraduate2003}
+\usepackage{otf}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{latexsym}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{color}
+\usepackage{listings}
+\usepackage[many]{tcolorbox}
+\usepackage{ascmac}
+\usepackage{subfigure}
+\usepackage{colortbl,array,xcolor}
+\usepackage{multirow}
+\usepackage{listings,jvlisting}
+\usepackage{booktabs}
+
+
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
+
+\definecolor{dgreen}{rgb}{0.1,0.5,0.1}
+
+\def\Underline{\setbox0\hbox\bgroup\let\\\endUnderline}
+\def\endUnderline{\vphantom{y}\egroup\smash{\underline{\box0}}\\}
+\def\|{\verb|}
+\def\newblock{\hskip .11em plus .33em minus .07em}
+\newcommand{\smallsection}[1]{\noindent\textbf{#1．}}
+\renewcommand{\lstlistingname}{プログラム}
+
+\def\summarybox#1#2{
+\medskip
+\begin{tcolorbox}[enhanced,title=#1, attach boxed title to top left= {xshift=0mm, yshift*=-\tcboxedtitleheight/2}]
+    #2
+\end{tcolorbox}
+}
+
+\begin{document}
+
+
+\title{型を考慮したコードクローンの集約リファクタリング}
+
+%\etitle{English Title}
+
+\affiliate{KU}{九州大学\\
+Kyushu University}
+
+\author{杉原 裕太}{}{KU}[sugihara@posl.ait.kyushu-u.ac.jp]
+\author{沖野 健太郎}{}{KU}[okino@posl.ait.kyushu-u.ac.jp]
+\author{清水 一輝}{}{KU}[shimizu@posl.ait.kyushu-u.ac.jp]
+\author{近藤 将成}{}{KU}[kondo@ait.kyushu-u.ac.jp]
+\author{亀井 靖高}{}{KU}[kamei@ait.kyushu-u.ac.jp]
+\author{鵜林 尚靖}{}{KU}[ubayashi@ait.kyushu-u.ac.jp]
+
+\begin{abstract}
+ソースコード中に点在するコードクローンは，ソフトウェアを保守する際に悪影響をおよぼす恐れがあると考えられている．
+それらのコードクローンの検出は，メソッド抽出リファクタリングを行う上で重要なステップとなり，多くの手法が提案されてきた．
+ところが，検出されたコードクローンがリファクタリング対象として適切かどうかの判断は困難であり，クローン情報のリファクタリング利用への障壁となっている．
+そこで本稿では型付き構文木を用いることで，メソッド抽出リファクタリングを見据えたコードクローンを検出する手法を提案する．
+さらに，提案手法によって検出されたコードクローンのリファクタリングに対する応用について論じる．
+\end{abstract}
+
+\begin{jkeyword}
+  コードクローン，型付き構文木，リファクタリング
+\end{jkeyword}
+
+\maketitle
+
+\setcounter{page}{1}
+
+{\large
+%1 はじめに
+\input{section/intro}
+%2 動機
+\input{section/motivation}
+%3 用語の説明
+\input{section/definitions}
+%4 実験方法
+\input{section/methodology}
+%5 実験結果
+\input{section/result}
+%6 実験結果
+\input{section/threats}
+%7 まとめと今後の展望
+\input{section/conclusion}
+}
+
+\section*{謝辞}
+%%先生に聞く
+本研究の一部は，JSPS 科研費JP18H04097，JP21H04877，および，JSPS・スイスとの国際共同研究事業（JPJSJRP20191502）の助成を受けた．
+
+
+%\bibliographystyle{jplain}
+\bibliographystyle{junsrt}
+\bibliography{references}
+
+\end{document}

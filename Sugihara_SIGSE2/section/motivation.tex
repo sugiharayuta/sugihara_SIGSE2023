@@ -1,0 +1,125 @@
+\section{背景と動機\label{motivation}}
+
+\subsection{レコードの仕様\label{record_specification}}
+
+\begin{figure}[t]
+\begin{lstlisting}
+record Point(int x, int y) { }
+\end{lstlisting}
+\caption{レコードの宣言}
+\label{record_decl}
+\end{figure}
+
+\begin{figure}[t]
+\begin{lstlisting}
+import java.util.Objects;
+
+final class Point {
+    private final int x;
+    private final int y;
+
+    public Point(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public int x() { return x; }
+    public int y() { return y; }
+
+    @Override
+    public boolean equals(Object o) {
+        if(o.getClass() == Point.class){
+            Point p = (Point) o;
+            return p.x == x && p.y == y;
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(x, y);
+    }
+
+    @Override
+    public String toString() {
+        return "Point[x=%d, y=%d]".formatted(x, y);
+    }
+}
+\end{lstlisting}
+\caption{\figref{record_decl}と等価なクラス宣言}
+\label{class_decl}
+\end{figure}
+
+レコードとは，不変な変数群を保持することを目的として作られた，Javaにおける新たな型宣言のフレームワークである\cite{Record_Purpose}．
+Java16以前では，Javaは通常クラス，列挙型，インタフェース，アノテーション型の4つの型宣言をサポートしていた．
+そして2021年3月のJava16で（プレビュー期間を含むとJava14から），5つ目の型宣言であるレコードが登場した．
+レコードの宣言では，クラス宣言の際に用いるキーワードclassの代わりに，文脈的キーワードのrecordを用いる．
+そして\figref{record_decl}のように，レコード名の直後にヘッダ（レコードの保持するフィールドのリスト）を宣言する．
+これらによって次のメンバが暗黙的に定義され，利用できるようになる．
+
+\begin{quote}
+    \begin{itemize}
+        \item ヘッダに対応するprivateかつfinalなフィールド
+        \item カノニカルコンストラクタ（ヘッダと同じ型の順番で引数をとり，対応する各フィールドを初期化するコンストラクタ）
+        \item 各フィールドと同じ名前をもつゲッタメソッド
+        \item 一定の規則に基づいて構成されたtoString，equals，hashCodeメソッド
+    \end{itemize}
+\end{quote}
+
+
+参考として\figref{class_decl}に，\figref{record_decl}のレコードと等価であるクラス宣言を示す．
+レコードは，\figref{class_decl}のような値ベース・クラスを簡潔に宣言することを可能とし，ソースコード記述量の削減に効果を発揮すると考えられる．
+また，ソースコードの読み手がレコードの仕様を理解している場合，レコード型宣言の提供するインタフェースを素早く理解することができるという恩恵もある．
+なお，暗黙的に定義されたメソッドおよびコンストラクタは，同じシグネチャでレコードの内部に改めて宣言することで，オーバーライドすることも可能である．
+
+レコードの宣言には，通常クラスには存在しない次のような制約も課される\cite{JLS17}．
+
+\begin{quote}
+    \begin{itemize}
+        \item クラスを継承できない．（インタフェースの実装は可．）
+        \item クラスの継承元になれない．
+        \item ヘッダとは別のインスタンスフィールドを宣言できない．
+        \item インスタンスイニシャライザを宣言できない．
+        \item カノニカルコンストラクタをオーバーライドしないコンストラクタは，最初に必ずカノニカルコンストラクタを呼び出さないといけない．
+    \end{itemize}
+\end{quote}
+
+継承の制約やインスタンスフィールドの制約は，レコードの不変性を保証するためのものである．
+インスタンスイニシャライザとコンストラクタの制約は，レコードの初期化がカノニカルコンストラクタによって確実に行われることを保証するためのものである．
+
+\subsection{Javaの言語仕様に対して過去に行われた調査\label{related_works}}
+\subsubsection{Javaのジェネリクスに関する研究\label{generics_research}}
+Chrisらは，Java5で追加された言語仕様であるジェネリクスについて，OSSにおける利用の調査を行った\cite{Generics_Research}．
+ジェネリクスは，クラスあるいはメソッド中の型宣言に自由度を持たせる言語仕様であり，ダウンキャスト式などのアンチパターンの減少に効果を発揮するとされている．
+本関連研究ではOSSの開発履歴を解析し，ジェネリクスのもたらす効果の検証とともに，利用数の変遷やジェネリクスに与えられやすい型引数などの統計を取得している．
+
+データセットは，Javaにジェネリクスが導入される以前に開始した20のOSSと，Javaにジェネリクスが導入されたより後に開始した20のOSSである．
+結果として，アンチパターンの減少の側面からは，ジェネリクスの適用数の増加に伴って統計学的有意にダウンキャスト式の割合が減少していることがわかった．
+ジェネリクスの利用の側面からは，ジェネリクス導入以前に開始したOSSのうち15件で，ジェネリクス導入以降に開始したOSSのうち全てで，ジェネリクスが利用されていることがわかった．
+また，ジェネリクスの型引数としては，String型が最も多く与えられていることがわかった．
+
+\subsubsection{Javaのラムダ式に関する研究\label{lambda_research}}
+DavoodとAmeyaらは，Java8で追加された言語仕様であるラムダ式について，OSSにおける利用に関する調査を行った\cite{Generics_Research}．
+Javaにおけるラムダ式は，関数をオブジェクトのように扱うことができる言語仕様であり，同等の機能を提供する無名クラスをより簡潔に記述したものである．
+本関連研究ではOSSの開発履歴を解析し，ラムダ式の利用を関数型インタフェースや導入目的など，さまざまな側面から分析している．
+
+データセットは，GitHubから収集したスター数トップ2,000のJavaのOSSである．
+結果として，ラムダ式の利用数の側面からは，2,000件中241件のレポジトリで，合計100,540件のラムダ式が利用されていることがわかった．
+また，2016年内において追加されたコードに含まれるラムダ式の割合は2015年の3倍程度になっており，ラムダ式の増加が加速していることがわかった．
+リファクタリング利用の側面からは，特に多くのラムダ式を導入していた51件のコミットを調査したところ，5,855件のラムダ式が無名クラスを置き換えることで導入されていた．
+
+\subsection{本研究の目的\label{research_goals}}
+\ref{related_works}節の2つの研究では，言語仕様の利用数および適用数の増加について調査が行われている．
+また，言語仕様の利用形態に関する俯瞰として，\ref{generics_research}節の研究ではジェネリクスに与えられる型引数について，\ref{lambda_research}節の研究ではラムダ式の型として与えられる関数型インタフェースの利用について調査されていた．
+よって，RQ1およびRQ2では，これらの関連研究に倣って，以下のような調査を行う．
+\begin{itemize}
+    \item[RQ1 : ] レコードの利用における全体的な俯瞰を与えるため，OSSにおけるレコードの適用数やその変遷を調査する．
+    \item[RQ2 : ] レコードの利用形態に関する俯瞰として，レコードの要素型と実装インタフェースについて統計を取得する．
+\end{itemize}
+
+また，本研究ではレコードを用いたリファクタリングを支援するツールの開発のために，必要な知見を収集することを目的としている．
+よってRQ3およびRQ4では，より効果的な支援の提供のため，レコードを用いたリファクタリングについて以下の調査を行う．
+\begin{itemize}
+    \item[RQ3 : ] レコードを用いたリファクタリングで，ソースコードの要素削減の観点からどの程度の恩恵があるのか明らかにする．
+    \item[RQ4 : ] レコードを用いたリファクタリングを適用するにあたり，\ref{record_specification}節で挙げたような制約も含め，どのような障害があるのか明らかにする．
+\end{itemize}
