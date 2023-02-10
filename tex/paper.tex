@@ -14,6 +14,8 @@
 \usepackage{colortbl,array,xcolor}
 \usepackage{multirow}
 \usepackage{booktabs}
+\usepackage{tablefootnote}
+\usepackage{url}
 
 \lstset{
   language={java},
@@ -72,7 +74,7 @@ Kyushu University}
   そして2021年に追加された言語仕様であるレコード・クラスは，一部の型宣言を簡潔に行うことを可能とし，ソースコード記述量の削減に寄与すると考えられている．
   しかしながら，レコード・クラスに関して，リファクタリング上の恩恵を報告する研究はまだ行われていない．
   そこで本稿ではレコード・クラスのリファクタリング利用に関する初期調査として，GitHub上のOSSにおけるレコード・クラスの利用実態を評価した．
-  その結果，データセットとして取得した2000件のレポジトリのうち，70件のレポジトリで合計3244のレコード・クラスが定義されていることがわかった．
+  その結果，データセットとして取得した2,000件のリポジトリのうち，70件のリポジトリで合計3,244のレコード・クラスが定義されていることがわかった．
   また，コミットによるレコード・クラスの追加のうち，22.2\%が既存クラスをレコード・クラスに変更するリファクタリングであることがわかった．
 \end{abstract}
 
@@ -91,10 +93,10 @@ Kyushu University}
 \input{section/motivation}
 %3 実験方法
 \input{section/methodology}
-%4 実験結果と考察
+%4 実験結果
 \input{section/result}
-%5 妥当性の脅威
-\input{section/threats}
+%5 考察
+\input{section/discussion}
 %6 まとめと今後の展望
 \input{section/conclusion}
 }

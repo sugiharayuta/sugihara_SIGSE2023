@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=latex 2021.4.8)  3 FEB 2023 14:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=latex 2021.4.8)  8 FEB 2023 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/sugiharayuuta/Desktop/研究室関連/研究用/sugihara_method_refactoring/tex/Sugihara_SIGSE2/paper.tex
-(/Users/sugiharayuuta/Desktop/研究室関連/研究用/sugihara_method_refactoring/tex/Sugihara_SIGSE2/paper.tex
+**/Users/sugiharayuuta/Desktop/研究室関連/研究用/SIGSE2023/tex/paper.tex
+(/Users/sugiharayuuta/Desktop/研究室関連/研究用/SIGSE2023/tex/paper.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (./ipsj.cls
 Document Class: ipsj 2018/08/03 v4.0 IPSJ class
@@ -7258,33 +7258,58 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count333
 \@lastruleclass=\count334
 \@thisrulewidth=\dimen296
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tablefootnote/tablefootnote.sty
+Package: tablefootnote 2014/01/26 v1.1c Table foot notes (HMM)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count335
+\calc@Bcount=\count336
+\calc@Adimen=\dimen297
+\calc@Bdimen=\dimen298
+\calc@Askip=\skip85
+\calc@Bskip=\skip86
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count337
+\calc@Cskip=\skip87
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+))) (/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 54.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 56.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (out/paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    H
-l.54 \begin{document}
+l.56 \begin{document}
                      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -7296,7 +7321,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \normalsize ...normalsize {13\JQ }{21H}\kanjiskip 
                                                   \z@ \@plus .1zw \@minus .0...
-l.54 \begin{document}
+l.56 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7307,7 +7332,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    p
-l.54 \begin{document}
+l.56 \begin{document}
                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -7316,7 +7341,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    p
-l.54 \begin{document}
+l.56 \begin{document}
                      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -7332,20 +7357,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 \begin{document}
+l.56 \begin{document}
                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Warning: First page is already shipped out, ignoring
-               \AtBeginDvi on input line 54.
+               \AtBeginDvi on input line 56.
 
 
 LaTeX Warning: First page is already shipped out, ignoring
-               \AtBeginDvi on input line 54.
+               \AtBeginDvi on input line 56.
 
-\c@lstlisting=\count335
+\c@lstlisting=\count338
 
 ! Package inputenc Error: Unicode character 概 (U+6982)
 (inputenc)                not set up for use with LaTeX.
@@ -7354,7 +7379,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 \begin{abstract}
+l.71 \begin{abstract}
                      
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7367,7 +7392,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 \begin{abstract}
+l.71 \begin{abstract}
                      
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7380,7 +7405,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 \begin{abstract}
+l.71 \begin{abstract}
                      
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7393,7 +7418,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70   今
+l.72   今
           日広く利用されているプログラミング言語である...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7406,7 +7431,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70   今日
+l.72   今日
              広く利用されているプログラミング言語である...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7419,7 +7444,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70   今日広
+l.72   今日広
                 く利用されているプログラミング言語である...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7432,7 +7457,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70   今日広く
+l.72   今日広く
                    利用されているプログラミング言語である...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7445,7 +7470,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70   今日広く利
+l.72   今日広く利
                       用されているプログラミング言語である...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7458,7 +7483,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70   今日広く利用
+l.72   今日広く利用
                          されているプログラミング言語である...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7471,7 +7496,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70   今日広く利用さ
+l.72   今日広く利用さ
                             れているプログラミング言語である...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7484,7 +7509,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70   今日広く利用され
+l.72   今日広く利用され
                                ているプログラミング言語である...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7497,7 +7522,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70   今日広く利用されて
+l.72   今日広く利用されて
                                   いるプログラミング言語である...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7510,7 +7535,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70   今日広く利用されてい
+l.72   今日広く利用されてい
                                      るプログラミング言語である...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7523,7 +7548,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70   今日広く利用されている
+l.72   今日広く利用されている
                                         プログラミング言語である...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7536,7 +7561,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70   今日広く利用されているプ
+l.72   今日広く利用されているプ
                                            ログラミング言語である...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7549,7 +7574,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70   今日広く利用されているプロ
+l.72   今日広く利用されているプロ
                                               グラミング言語である...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7562,7 +7587,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70   今日広く利用されているプログ
+l.72   今日広く利用されているプログ
                                                  ラミング言語である...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7575,7 +7600,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...日広く利用されているプログラ
+l.72 ...日広く利用されているプログラ
                                                   ミング言語であるJa...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7588,7 +7613,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...広く利用されているプログラミ
+l.72 ...広く利用されているプログラミ
                                                   ング言語であるJava�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7601,7 +7626,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...く利用されているプログラミン
+l.72 ...く利用されているプログラミン
                                                   グ言語であるJavaは�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7614,7 +7639,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...利用されているプログラミング
+l.72 ...利用されているプログラミング
                                                   言語であるJavaは，�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7627,7 +7652,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...用されているプログラミング言
+l.72 ...用されているプログラミング言
                                                   語であるJavaは，円�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7640,7 +7665,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...されているプログラミング言語
+l.72 ...されているプログラミング言語
                                                   であるJavaは，円滑�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7653,7 +7678,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...れているプログラミング言語で
+l.72 ...れているプログラミング言語で
                                                   あるJavaは，円滑な�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7666,7 +7691,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...ているプログラミング言語であ
+l.72 ...ているプログラミング言語であ
                                                   るJavaは，円滑なコ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7679,7 +7704,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...いるプログラミング言語である
+l.72 ...いるプログラミング言語である
                                                   Javaは，円滑なコー�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7692,7 +7717,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...��ログラミング言語であるJavaは
+l.72 ...��ログラミング言語であるJavaは
                                                   ，円滑なコーディ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7705,7 +7730,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...��グラミング言語であるJavaは，
+l.72 ...��グラミング言語であるJavaは，
                                                   円滑なコーディン�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7718,7 +7743,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...��ラミング言語であるJavaは，円
+l.72 ...��ラミング言語であるJavaは，円
                                                   滑なコーディング�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7731,7 +7756,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...��ミング言語であるJavaは，円滑
+l.72 ...��ミング言語であるJavaは，円滑
                                                   なコーディングを�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7744,7 +7769,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...��ング言語であるJavaは，円滑な
+l.72 ...��ング言語であるJavaは，円滑な
                                                   コーディングを目�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7757,7 +7782,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...��グ言語であるJavaは，円滑なコ
+l.72 ...��グ言語であるJavaは，円滑なコ
                                                   ーディングを目的�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7770,7 +7795,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...��言語であるJavaは，円滑なコー
+l.72 ...��言語であるJavaは，円滑なコー
                                                   ディングを目的と�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7783,7 +7808,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...��語であるJavaは，円滑なコーデ
+l.72 ...��語であるJavaは，円滑なコーデ
                                                   ィングを目的とし�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7796,7 +7821,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...��であるJavaは，円滑なコーディ
+l.72 ...��であるJavaは，円滑なコーディ
                                                   ングを目的として�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7809,7 +7834,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...��あるJavaは，円滑なコーディン
+l.72 ...��あるJavaは，円滑なコーディン
                                                   グを目的として新�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7822,7 +7847,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...��るJavaは，円滑なコーディング
+l.72 ...��るJavaは，円滑なコーディング
                                                   を目的として新た�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7835,7 +7860,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...��Javaは，円滑なコーディングを
+l.72 ...��Javaは，円滑なコーディングを
                                                   目的として新たな�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7848,7 +7873,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...avaは，円滑なコーディングを目
+l.72 ...avaは，円滑なコーディングを目
                                                   的として新たな言�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7861,7 +7886,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...は，円滑なコーディングを目的
+l.72 ...は，円滑なコーディングを目的
                                                   として新たな言語�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7874,7 +7899,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...，円滑なコーディングを目的と
+l.72 ...，円滑なコーディングを目的と
                                                   して新たな言語仕�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7887,7 +7912,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...円滑なコーディングを目的とし
+l.72 ...円滑なコーディングを目的とし
                                                   て新たな言語仕様�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7900,7 +7925,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...滑なコーディングを目的として
+l.72 ...滑なコーディングを目的として
                                                   新たな言語仕様を�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7913,7 +7938,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...なコーディングを目的として新
+l.72 ...なコーディングを目的として新
                                                   たな言語仕様を導�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7926,7 +7951,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...コーディングを目的として新た
+l.72 ...コーディングを目的として新た
                                                   な言語仕様を導入�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7939,7 +7964,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...ーディングを目的として新たな
+l.72 ...ーディングを目的として新たな
                                                   言語仕様を導入す�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7952,7 +7977,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...ディングを目的として新たな言
+l.72 ...ディングを目的として新たな言
                                                   語仕様を導入する�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7965,7 +7990,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...ィングを目的として新たな言語
+l.72 ...ィングを目的として新たな言語
                                                   仕様を導入するこ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7978,7 +8003,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...ングを目的として新たな言語仕
+l.72 ...ングを目的として新たな言語仕
                                                   様を導入すること�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -7991,7 +8016,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...グを目的として新たな言語仕様
+l.72 ...グを目的として新たな言語仕様
                                                   を導入することが�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8004,7 +8029,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...を目的として新たな言語仕様を
+l.72 ...を目的として新たな言語仕様を
                                                   導入することがあ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8017,7 +8042,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...目的として新たな言語仕様を導
+l.72 ...目的として新たな言語仕様を導
                                                   入することがある．
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8030,7 +8055,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...的として新たな言語仕様を導入
+l.72 ...的として新たな言語仕様を導入
                                                   することがある．
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8043,7 +8068,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...として新たな言語仕様を導入す
+l.72 ...として新たな言語仕様を導入す
                                                   ることがある．
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8056,7 +8081,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...して新たな言語仕様を導入する
+l.72 ...して新たな言語仕様を導入する
                                                   ことがある．
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8069,7 +8094,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...て新たな言語仕様を導入するこ
+l.72 ...て新たな言語仕様を導入するこ
                                                   とがある．
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8082,7 +8107,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...新たな言語仕様を導入すること
+l.72 ...新たな言語仕様を導入すること
                                                   がある．
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8095,7 +8120,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...たな言語仕様を導入することが
+l.72 ...たな言語仕様を導入することが
                                                   ある．
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8108,7 +8133,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...な言語仕様を導入することがあ
+l.72 ...な言語仕様を導入することがあ
                                                   る．
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8121,7 +8146,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...言語仕様を導入することがある
+l.72 ...言語仕様を導入することがある
                                                   ．
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8134,7 +8159,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...語仕様を導入することがある．
+l.72 ...語仕様を導入することがある．
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8147,7 +8172,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   過
+l.73   過
           去のJava言語アップデートでもジェネリクスやラ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8160,7 +8185,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   過去
+l.73   過去
              のJava言語アップデートでもジェネリクスやラ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8173,7 +8198,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   過去の
+l.73   過去の
                 Java言語アップデートでもジェネリクスやラ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8186,7 +8211,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   過去のJava言
+l.73   過去のJava言
                        語アップデートでもジェネリクスやラ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8199,7 +8224,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   過去のJava言語
+l.73   過去のJava言語
                           アップデートでもジェネリクスやラ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8212,7 +8237,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   過去のJava言語ア
+l.73   過去のJava言語ア
                              ップデートでもジェネリクスやラ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8225,7 +8250,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   過去のJava言語アッ
+l.73   過去のJava言語アッ
                                 プデートでもジェネリクスやラ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8238,7 +8263,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   過去のJava言語アップ
+l.73   過去のJava言語アップ
                                    デートでもジェネリクスやラ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8251,7 +8276,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   過去のJava言語アップデ
+l.73   過去のJava言語アップデ
                                       ートでもジェネリクスやラ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8264,7 +8289,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   過去のJava言語アップデー
+l.73   過去のJava言語アップデー
                                          トでもジェネリクスやラ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8277,7 +8302,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   過去のJava言語アップデート
+l.73   過去のJava言語アップデート
                                             でもジェネリクスやラ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8290,7 +8315,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   過去のJava言語アップデートで
+l.73   過去のJava言語アップデートで
                                                もジェネリクスやラ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8303,7 +8328,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   過去のJava言語アップデートでも
+l.73   過去のJava言語アップデートでも
                                                   ジェネリクスやラ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8316,7 +8341,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...��のJava言語アップデートでもジ
+l.73 ...��のJava言語アップデートでもジ
                                                   ェネリクスやラム�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8329,7 +8354,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...��Java言語アップデートでもジェ
+l.73 ...��Java言語アップデートでもジェ
                                                   ネリクスやラムダ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8342,7 +8367,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...ava言語アップデートでもジェネ
+l.73 ...ava言語アップデートでもジェネ
                                                   リクスやラムダ式�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8355,7 +8380,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...言語アップデートでもジェネリ
+l.73 ...言語アップデートでもジェネリ
                                                   クスやラムダ式と�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8368,7 +8393,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...語アップデートでもジェネリク
+l.73 ...語アップデートでもジェネリク
                                                   スやラムダ式とい�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8381,7 +8406,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...アップデートでもジェネリクス
+l.73 ...アップデートでもジェネリクス
                                                   やラムダ式といっ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8394,7 +8419,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...ップデートでもジェネリクスや
+l.73 ...ップデートでもジェネリクスや
                                                   ラムダ式といった�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8407,7 +8432,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...プデートでもジェネリクスやラ
+l.73 ...プデートでもジェネリクスやラ
                                                   ムダ式といった言�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8420,7 +8445,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...デートでもジェネリクスやラム
+l.73 ...デートでもジェネリクスやラム
                                                   ダ式といった言語�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8433,7 +8458,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...ートでもジェネリクスやラムダ
+l.73 ...ートでもジェネリクスやラムダ
                                                   式といった言語仕�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8446,7 +8471,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...トでもジェネリクスやラムダ式
+l.73 ...トでもジェネリクスやラムダ式
                                                   といった言語仕様�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8459,7 +8484,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...でもジェネリクスやラムダ式と
+l.73 ...でもジェネリクスやラムダ式と
                                                   いった言語仕様が�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8472,7 +8497,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...もジェネリクスやラムダ式とい
+l.73 ...もジェネリクスやラムダ式とい
                                                   った言語仕様が追�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8485,7 +8510,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...ジェネリクスやラムダ式といっ
+l.73 ...ジェネリクスやラムダ式といっ
                                                   た言語仕様が追加�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8498,7 +8523,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...ェネリクスやラムダ式といった
+l.73 ...ェネリクスやラムダ式といった
                                                   言語仕様が追加さ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8511,7 +8536,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...ネリクスやラムダ式といった言
+l.73 ...ネリクスやラムダ式といった言
                                                   語仕様が追加され�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8524,7 +8549,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...リクスやラムダ式といった言語
+l.73 ...リクスやラムダ式といった言語
                                                   仕様が追加されて�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8537,7 +8562,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...クスやラムダ式といった言語仕
+l.73 ...クスやラムダ式といった言語仕
                                                   様が追加されてお�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8550,7 +8575,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...スやラムダ式といった言語仕様
+l.73 ...スやラムダ式といった言語仕様
                                                   が追加されており�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8563,7 +8588,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...やラムダ式といった言語仕様が
+l.73 ...やラムダ式といった言語仕様が
                                                   追加されており，�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8576,7 +8601,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...ラムダ式といった言語仕様が追
+l.73 ...ラムダ式といった言語仕様が追
                                                   加されており，こ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8589,7 +8614,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...ムダ式といった言語仕様が追加
+l.73 ...ムダ式といった言語仕様が追加
                                                   されており，これ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8602,7 +8627,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...ダ式といった言語仕様が追加さ
+l.73 ...ダ式といった言語仕様が追加さ
                                                   れており，これら�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8615,7 +8640,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...式といった言語仕様が追加され
+l.73 ...式といった言語仕様が追加され
                                                   ており，これらが�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8628,7 +8653,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...といった言語仕様が追加されて
+l.73 ...といった言語仕様が追加されて
                                                   おり，これらがリ�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -8641,16 +8666,16 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...いった言語仕様が追加されてお
+l.73 ...いった言語仕様が追加されてお
                                                   り，これらがリフ�...
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 19288 strings out of 478995
- 399204 string characters out of 5858211
- 892489 words of memory out of 5000000
- 36439 multiletter control sequences out of 15000+600000
+ 19618 strings out of 478995
+ 404372 string characters out of 5858211
+ 901533 words of memory out of 5000000
+ 36743 multiletter control sequences out of 15000+600000
  419882 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 97i,11n,103p,540b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 97i,11n,103p,506b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on out/paper.dvi (2 pages, 1268 bytes).
